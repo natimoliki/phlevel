@@ -1,0 +1,202 @@
+@media (max-width:1024px) {
+    .row-1 {
+        flex-wrap: wrap; 
+        width: 100%;       
+        align-items: center;
+        justify-content: center;      
+    }
+
+
+.ch-div1 {
+    height: 210px;
+}  
+
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+    .cont-flex{
+        flex-direction: column;    
+}
+
+
+.child-box1 {
+    width: 100%;
+}   
+    
+.R-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}   
+
+.nav-a-item {
+    font-size: 15px;
+    margin-left: 10px;
+   
+}
+
+.ul-item {
+column-gap: 10px;
+}
+
+.pic-div {
+    flex-direction: column;
+    max-width: 90%;
+    align-items: center;
+     
+}
+
+
+.ch-div1 {
+        width: 100%;      
+       height: auto;  
+}
+
+.row-11 {   
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
+    gap:10px
+}
+
+.left-wraper,
+.right-wraper{
+    width: 100%;
+}
+.left-wraper1 {
+    background-position: top-right;
+    background-size: cover;
+    width: 100%;
+}
+.martva-con {
+    flex-direction: column;
+}
+.martva-child2 {width: 100%;
+}
+
+
+.martva-child1 {width: 100%;
+}
+
+.contact-flex {
+    flex-direction: column;
+    gap:10px;
+}
+.left-contact,
+.right-contact{
+width: 100%;
+}
+
+.inf-section {
+    flex-direction: column;    
+}
+.left-inf {
+    width: 100%;  
+    justify-content: center;
+    align-items: center;
+}  
+
+.maps { 
+    width: 100%;  
+    padding-left: 30px; 
+}
+.all-contact {
+    top:1450px;
+}
+
+.dieta-div {
+    flex-direction: column;
+   
+}
+.dieta-left,
+.dieta-right {
+    width: 100%;
+}
+
+}
+
+
+@media (max-width:480px) 
+{
+nav {display: none;}
+
+.ul-item {flex-direction: column;
+row-gap: 10px;}   
+
+   
+.fa-bars {
+    display: block;
+
+}
+
+.fa-universal-access {
+    display: none;
+}
+
+
+.header-div {
+    position: relative;    
+    flex-direction: column;   
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px;
+ }
+
+.h1-title {
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: normal;
+}
+
+.row-1 {
+flex-direction: column;
+flex-direction: column-reverse;
+width: 90%;
+align-items: center;}
+
+.left-wraper,
+.right-wraper,
+.left-wraper1
+ {
+    width: 100%;
+}
+
+.footer-c {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+
+
+
+
+@media (max-width:320px) 
+{
+
+
+.h1-title {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.fa-bars {
+    display: block;
+
+  
+}
+
+
+.all-contact {
+    top:1440px;
+}
+
+}
